@@ -1,0 +1,30 @@
+@import './../node_modules/vanilla-framework';
+// @include vanilla;
+@include vf-base;
+@include vf-p-grid;
+@include vf-p-card;
+@include vf-u-align;
+@include vf-p-links;
+.App {
+    margin-top: 20px;
+}
+
+hr {
+    border-top: dotted 2px;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+a:visited {
+    color: rgba(14, 126, 182, 1);
+}
+
+.p-card {
+    border: 3px solid white;
+    border-top-color: rgba(168, 124, 160, 1);
+    box-shadow: 1px 1px 6px rgb(123, 122, 114);
+}
+
+.p-card__inner {
+    min-height: 200px;
+}
